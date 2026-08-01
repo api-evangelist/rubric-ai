@@ -1,7 +1,30 @@
 aid: rubric-ai
-name: Rubric Ai
-description: Rubric Ai is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rubric-ai.png
+name: Rubric Labs
+description: >-
+  Rubric Labs is an applied AI lab based in Canada that helps companies build and
+  ship intelligent, agent-powered applications. Rather than selling a public API
+  product, Rubric Labs operates as an engineering partner and maintains open-source
+  tooling for AI-first development, including create-rubric-app (a full-stack AI
+  project scaffold inspired by create-next-app), maige (open-source infrastructure
+  for running natural-language workflows on your codebase), and tokenmaxx (a local
+  proxy that aggregates LLM token usage across Codex and Claude Code accounts). The
+  team partners with companies such as Cal.com and Trigger.dev, works with Neon,
+  Vercel, and LangChain, and publishes engineering writing on its blog. As of this
+  profile there is no self-service developer API, hosted API reference, SDK, or
+  pricing surface to score — this is a services and open-source lab, not an API
+  provider.
 url: https://raw.githubusercontent.com/api-evangelist/rubric-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +32,43 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-identity-note: >-
+  Stub surfaced as "Rubric Ai" (rubric.ai is a parked/for-sale domain). Best-effort
+  identity match to Rubric Labs (rubriclabs.com, github.com/RubricLab), the prominent
+  AI lab named "Rubric" in the YC ecosystem. No public API surface found.
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Applied AI
+- Developer Tools
+- Open Source
+- Consulting
+- LLM
 apis: []
+common:
+- type: DomainSecurity
+  url: security/rubric-ai-domain-security.yml
+- type: Website
+  url: https://rubriclabs.com
+- type: Blog
+  url: https://rubriclabs.com/blog
+- type: GitHubOrganization
+  url: https://github.com/RubricLab
+- type: PrivacyPolicy
+  url: https://rubriclabs.com/privacy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/RubricLabs
+- type: Twitter
+  url: https://x.com/RubricLabs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
