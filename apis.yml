@@ -63,7 +63,7 @@ tags:
 - AI Agents
 - Applied AI
 - Developer Tools
-- Open-Source
+- Open Source
 - Consulting
 - LLM
 tags_raw:
@@ -75,6 +75,7 @@ tags_raw:
 - Open Source
 - Consulting
 - LLM
+- Open-Source
 apis: []
 common:
 - type: DomainSecurity
